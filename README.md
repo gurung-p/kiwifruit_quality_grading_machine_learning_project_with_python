@@ -38,7 +38,7 @@ The dataset and prediction outputs are included in this repository.
 ---
 ## **Dataset Overview**
 
-### The **kiwifruit dataset** is available [here](kiwifruit_quality.csv)
+### The **Kiwifruit Dataset** is available [here](kiwifruit_quality.csv)
 
 The dataset contains **697 kiwifruit samples**, each described by physical and chemical measurements such as:
 
@@ -108,7 +108,6 @@ As noted:
 
 > “Weight and Dry Matter carry most of the predictive power for the dataset.”  
 
-
 ---
 
 ## **Results**
@@ -123,6 +122,9 @@ As noted:
 - Minor confusion between **B** and **C**, which is expected due to visual similarity
 
 ### **Prediction Output**
+
+### The **Prediction Output CSV file** is available [here](kiwifruit_grading_ml_predictions.csv)
+
 A CSV file (`kiwifruit_grading_ml_predictions.csv`) contains:
 
 - Actual grade  

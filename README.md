@@ -28,7 +28,7 @@ The dataset and prediction outputs are included in this repository.
 ```
 ├── kiwifruit_quality.csv                   # Full dataset used for training
 ├── kiwifruit_predictions.csv               # Actual vs predicted grades from the final model
-├── kiwifruit_model.pkl                     # Saved optimised model
+├── kiwifruit_grading_model.pkl             # Saved optimised model
 ├── kiwifruit_grading_ml_workflow.ipynb     # Full ML workflow notebook
 ├── README.md                               # Project documentation
 └── kiwifruit_grading_ml_workflow.png       # Workflow diagram
@@ -130,7 +130,7 @@ A CSV file (`kiwifruit_predictions.csv`) contains:
 The final optimised model is saved as:
 
 ```
-kiwifruit_model_1.pkl
+kiwifruit_grading_model.pkl
 ```
 
 This allows seamless reuse for deployment or further experimentation.

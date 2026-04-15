@@ -67,6 +67,8 @@ From the dataset:
 
 ## **Machine Learning Approach**
 
+### The **Jupyter Notebook** is available [here](kiwifruit_grading_ml_workflow.ipynb)
+
 ### **1. Data Preparation**
 - Removed non‑predictive identifiers such as `FruitID`.
 - Split into training and test sets using **stratified sampling** to preserve grade proportions.

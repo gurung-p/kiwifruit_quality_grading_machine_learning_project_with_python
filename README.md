@@ -54,28 +54,9 @@ A quick inspection of the grade distribution shows that:
 - **Reject** is the smallest class  
 
 This mild imbalance is typical of horticultural datasets and justifies the use of **stratified splitting**.
----
-## **Dataset Summary**
-
-The dataset contains **697 kiwifruit samples**, each with physical, chemical, and defect‑related measurements.  
-Example fields include:
-
-- **Weight_g**
-- **Diameter_mm**
-- **Length_mm**
-- **DryMatter_pct**
-- **Brix**
-- **Firmness_kgf**
-- **SkinDefects_pct**
-- **ShapeIndex**
-- **Grade** (Target: A, B, C, Reject)
 
 From the dataset:
-
 > “Weight averages around 95 g, ranging from 60–150 g… Dry Matter averages 15.5%… Skin defects range up to 27.4%.”  
-
-
-The grade distribution is imbalanced, with Grade **B** being the most common and **Reject** the least represented.
 
 ---
 

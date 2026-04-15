@@ -33,7 +33,28 @@ The dataset and prediction outputs are included in this repository.
 ```
 
 ---
+## **Dataset Overview**
 
+The dataset contains **697 kiwifruit samples**, each described by physical and chemical measurements such as:
+
+- **Weight**
+- **Diameter & Length**
+- **Dry Matter %**
+- **Brix (sweetness)**
+- **Firmness**
+- **Skin Defects %**
+- **Shape Index**
+
+The target variable is the **Grade**, with four classes: **A, B, C, Reject**.
+
+A quick inspection of the grade distribution shows that:
+
+- **Grade B** is the most common  
+- **Grade A** and **Grade C** appear moderately  
+- **Reject** is the smallest class  
+
+This mild imbalance is typical of horticultural datasets and justifies the use of **stratified splitting**.
+---
 ## **Dataset Summary**
 
 The dataset contains **697 kiwifruit samples**, each with physical, chemical, and defect‑related measurements.  

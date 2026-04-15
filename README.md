@@ -24,12 +24,12 @@ The dataset and prediction outputs are included in this repository.
 ## **Repository Structure**
 
 ```
-├── kiwifruit_quality.csv              # Full dataset used for training
-├── kiwifruit_predictions.csv          # Actual vs predicted grades from the final model
-├── kiwifruit_model_1.pkl              # Saved optimised model (joblib)
-├── kiwifruit_grading_ml_workflow.ipynb# Full ML workflow notebook
-├── README.md                          # Project documentation
-└── kiwifruit_grading_ml_workflow.png  # Workflow diagram
+├── kiwifruit_quality.csv                   # Full dataset used for training
+├── kiwifruit_predictions.csv               # Actual vs predicted grades from the final model
+├── kiwifruit_model.pkl                     # Saved optimised model (joblib)
+├── kiwifruit_grading_ml_workflow.ipynb     # Full ML workflow notebook
+├── README.md                               # Project documentation
+└── kiwifruit_grading_ml_workflow.png       # Workflow diagram
 ```
 
 ---

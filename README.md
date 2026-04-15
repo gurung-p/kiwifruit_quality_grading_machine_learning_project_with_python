@@ -1,3 +1,5 @@
+<img src="kiwifruit_grading_ml_workflow.png" alt="Kiwifruit ML Workflow" width="1000">
+
 # **Kiwifruit Quality Grading - Machine Learning Project**  
 A complete end‑to‑end scikit‑learn workflow for predicting kiwifruit quality grades (A, B, C, Reject)
 

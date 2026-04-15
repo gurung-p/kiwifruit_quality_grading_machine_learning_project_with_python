@@ -119,7 +119,7 @@ As noted:
 - Minor confusion between **B** and **C**, which is expected due to visual similarity
 
 ### **Prediction Output**
-A CSV file (`kiwifruit_predictions.csv`) contains:
+A CSV file (`kiwifruit_grading_ml_predictions.csv`) contains:
 
 - Actual grade  
 - Predicted grade  
@@ -130,7 +130,7 @@ A CSV file (`kiwifruit_predictions.csv`) contains:
 The final optimised model is saved as:
 
 ```
-kiwifruit_grading_model.pkl
+kiwifruit_grading_ml_model.pkl
 ```
 
 This allows seamless reuse for deployment or further experimentation.

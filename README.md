@@ -38,7 +38,7 @@ The dataset and prediction outputs are included in this repository.
 ---
 ## **Dataset Overview**
 
-### The **Kiwifruit Dataset** is available [here](kiwifruit_quality.csv)
+### The **"Kiwifruit Dataset"** is available [here](kiwifruit_quality.csv)
 
 The dataset contains **697 kiwifruit samples**, each described by physical and chemical measurements such as:
 
@@ -67,7 +67,7 @@ From the dataset:
 
 ## **Machine Learning Approach**
 
-### The **Jupyter Notebook** is available [here](kiwifruit_grading_ml_workflow.ipynb)
+### The **"Jupyter Notebook Project file"** is available [here](kiwifruit_grading_ml_workflow.ipynb)
 
 ### **1. Data Preparation**
 - Removed non‑predictive identifiers such as `FruitID`.
@@ -121,9 +121,9 @@ As noted:
 - Perfect classification for **A** and **Reject**
 - Minor confusion between **B** and **C**, which is expected due to visual similarity
 
-### **Prediction Output**
+## **Prediction Output**
 
-### The **Prediction Output CSV file** is available [here](kiwifruit_grading_ml_predictions.csv)
+### The **"Prediction Output CSV"** file is available [here](kiwifruit_grading_ml_predictions.csv)
 
 A CSV file (`kiwifruit_grading_ml_predictions.csv`) contains:
 
@@ -133,23 +133,13 @@ A CSV file (`kiwifruit_grading_ml_predictions.csv`) contains:
 
 ## **Model Saving**
 
+### The **"Final Optimised Model"** is available [here](kiwifruit_grading_ml_model.pkl)
+
 The final optimised model is saved as:
 
 ```
 kiwifruit_grading_ml_model.pkl
 ```
-
 This allows seamless reuse for deployment or further experimentation.
 
----
-
-## **Workflow Diagram**
-
-The repository includes a full workflow diagram:
-
-```
-kiwifruit_grading_ml_workflow.png
-```
-
-This visual summarises the entire ML pipeline from raw data to final predictions.
 

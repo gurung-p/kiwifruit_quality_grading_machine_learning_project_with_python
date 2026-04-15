@@ -1,5 +1,5 @@
 # **Kiwifruit Quality Grading – Machine Learning Project**  
-*A complete end‑to‑end scikit‑learn workflow for predicting kiwifruit quality grades (A, B, C, Reject)*
+A complete end‑to‑end scikit‑learn workflow for predicting kiwifruit quality grades (A, B, C, Reject)
 
 ---
 

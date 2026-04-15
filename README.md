@@ -67,7 +67,7 @@ From the dataset:
 
 ## **Machine Learning Approach**
 
-### The **"Jupyter Notebook Project file"** is available [here](kiwifruit_grading_ml_workflow.ipynb)
+### The **"Jupyter Notebook Project"** file is available [here](kiwifruit_grading_ml_workflow.ipynb)
 
 ### **1. Data Preparation**
 - Removed non‑predictive identifiers such as `FruitID`.

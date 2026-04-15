@@ -72,10 +72,10 @@ Four models were trained and tuned:
 
 | Model | Notes |
 |-------|-------|
-| Random Forest | Strong baseline, handles noise well |
-| Gradient Boosting | High accuracy, captures subtle patterns |
-| Logistic Regression | Linear baseline |
-| Support Vector Machine | Effective for complex boundaries |
+| **Random Forest** | Strong baseline, handles noise well |
+| **Gradient Boosting** | High accuracy, captures subtle patterns |
+| **Logistic Regression** | Linear baseline |
+| **Support Vector Machine** | Effective for complex boundaries |
 
 Each model was optimised using **GridSearchCV** with cross‑validation.
 

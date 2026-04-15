@@ -70,12 +70,12 @@ From the dataset:
 ### **2. Models Evaluated**
 Four models were trained and tuned:
 
-| Model | Notes |
-|-------|-------|
-| **Random Forest** | Strong baseline, handles noise well |
-| **Gradient Boosting** | High accuracy, captures subtle patterns |
-| **Logistic Regression** | Linear baseline |
-| **Support Vector Machine** | Effective for complex boundaries |
+| Model | Learns  | Best For  |
+|-------|---------|-----------|
+| **Random Forest** | Many decision paths | General performance, noisy data |
+| **Gradient Boosting** | Mistake‑correcting trees | High accuracy, subtle patterns |
+| **Logistic Regression** | Straight-line boundaries | Baseline comparison |
+| **SVM** | Optimal separating boundary | Complex but clean class separation |
 
 Each model was optimised using **GridSearchCV** with cross‑validation.
 

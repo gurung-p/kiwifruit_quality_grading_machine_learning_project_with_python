@@ -121,9 +121,9 @@ As noted:
 - Perfect classification for **A** and **Reject**
 - Minor confusion between **B** and **C**, which is expected due to visual similarity
 
-## **Prediction Output**
+## **Model Prediction Output**
 
-### The **"Prediction Output CSV"** file is available [here](kiwifruit_grading_ml_predictions.csv)
+### The **"Model Prediction CSV"** file is available [here](kiwifruit_grading_ml_predictions.csv)
 
 A CSV file (`kiwifruit_grading_ml_predictions.csv`) contains:
 
